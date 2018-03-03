@@ -1,0 +1,75 @@
+思维提升  https://wenku.baidu.com/view/ef13364a2e3f5727a5e9622e.html
+
+
+下载js   http://www.bootcdn.cn/
+
+
+
+$.ajax({
+ url:"",
+ type: "post",
+ data:{"username":"砂纸","paw":"123"},
+ dataType:json
+ success : function (data){
+ }
+});
+
+
+
+dwyduo6381@sandbox.com
+
+
+// 同步执行  
+$.ajaxSettings.async = false;
+
+jquery提供了6个ajax
+$.post();
+$.get();
+$.getJSON();
+$.load();
+$.ajax();
+$.getScript();
+
+
+dwyduo6381@sandbox.com
+
+
+http://www.tqmall.com/ 
+
+http://hardware.csc86.com
+
+http://www.beimai.com/
+
+//重新加载  如果data没有就是重新加载数据表格改成这样{}
+$('#dg').datagrid('load',data);
+
+
+//给form表单id为staffupdateform赋值按照name对应值    json
+	/*  */
+	$("#itemAddForm").form("load",data.productInfo);
+
+
+//$("#itemAddForm").serialize()将表单序列号为key-value形式的字符串
+
+
+nput 的属性autocomplete 默认为on
+其含义代表是否让浏览器自动记录之前输入的值
+很多时候，需要对客户的资料进行保密，防止浏览器软件或者恶意插件获取到
+可以在input中加入autocomplete="off" 来关闭记录
+
+
+//遍历json
+$.each(data, function(idx, obj) 
+{
+	  alert(obj.);
+});
+
+
+
+后翻看了下几个其他选项的【combox、numberbox、datebox、datetimebox】，都是使用setValue方法，只有validatebox使用正常的jq方式获取input框里头的值
+$("#txtrName").val("xxx");
+class="easyui-textbox" ： $("#txtrName").textbox("setValue", "xxx");
+class="easyui-combox" ： $("#txtrName").combox("setValue", "xxx");
+class="easyui-numberbox"  ：$("#txtrName").numberbox("setValue", "xxx");
+class="easyui-datebox"  ：$("#txtrName").datebox("setValue", "xxx");
+class="easyui-datetimebox"  ：$("#txtrName").datetimebox("setValue", "xxx");
